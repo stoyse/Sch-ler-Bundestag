@@ -1,0 +1,130 @@
+.split-3 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 2vw;
+    margin: 2vw;
+    }
+    
+    .left {
+    margin-bottom: 17vw;
+    background-color: #36454fa1;
+    color: #fff;
+    padding: 4vw;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    border-radius: 15%;
+    }
+    .left:hover {
+    background-color: #242424;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.19), 0px 10px 10px rgba(0, 0, 0, 0.23);
+    }
+    .center {
+    margin-bottom: 10vw;
+    background-color: #36454F;
+    color: #fff;
+    padding: 4vw;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    border-radius: 15%;
+    margin-top: 7vw;
+    }
+    .center:hover {
+    background-color: #242424;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.19), 0px 10px 10px rgba(0, 0, 0, 0.23);
+    }
+    .right {
+    margin-bottom: 13.5vw;
+    background-color: #333;
+    color: #fff;
+    padding: 4vw;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    border-radius: 15%;
+    margin-top: 3.5vw;
+    }
+    .right:hover {
+    background-color: #242424;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.19), 0px 10px 10px rgba(0, 0, 0, 0.23);
+    }
+
+
+.konzept h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.konzept h4 {
+    font-family: Arial, sans-serif;
+    font-size: 112.5%;
+    line-height: 1.6em;
+    color: #babababd;
+}
+
+.konzept h4 b {
+    color: #fff;
+}
+
+.konzept a {
+    padding: 20px;
+    color: #777;
+    text-decoration: none;
+}
+
+.konzept .fa {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+
+
+
+@media (max-width: 962px) {
+    .split-3 {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 9vw;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4vw;
+    }
+    .left {
+    margin: 0vw;
+    margin-top: 10vw;
+    margin-bottom: 0;
+    max-width: 80%;
+    }
+    .center {
+    margin: 0vw;
+    max-width: 80%;
+    }
+    .right {
+    margin: 0vw;
+    max-width: 80%;
+    }
+    }
+    
+    @media (min-width: 600px) {
+        .left {
+            max-width: 100%;
+        }
+        .center {
+            max-width: 100%;
+        }
+        .right {
+            max-width: 100%;
+        }
+    }
